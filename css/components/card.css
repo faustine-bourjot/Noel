@@ -1,0 +1,186 @@
+
+.cards{
+
+	display: flex;
+	flex-wrap: wrap;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  margin: auto;
+  justify-content: space-between;
+  background-color: #f0efeb;
+ 
+}
+
+
+.card {
+	padding: 30px 20px;
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background-color: #b7e4c7;
+  height: 240px;
+	
+}
+
+
+.card1{
+    padding: 30px 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  flex-basis: 250px;
+  height: 240px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background-color: #b07d62;
+
+  }
+.card6{
+    padding: 30px 15px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background-color: #fff1e6;
+  
+}
+  .card5{
+    padding: 30px 20px;
+    border-radius: 6px;
+    height: 240px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  margin: 10px;
+  flex-basis: 250px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background-color: #fd5200;
+
+  }
+
+
+.card2{
+  background-image: url(../../images/lettre1.jpg);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  padding: 212px;
+  border-radius: 4px;
+  text-align: center;
+      margin: 110px 50px 180px;
+  background-size: cover;
+  background-position: center;
+}
+.card img {
+  width: 250px;
+  border-radius: 6px;
+  margin: auto;
+  align-items: center;
+  background-position: center;
+
+}
+.card5 audio{
+  margin: auto;
+  width: 240px;
+  height: 45px;
+  padding: 12px;
+}
+.card btn-blue1 {
+  flex-grow: 1;
+ text-align: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card btn-blue2{
+  flex-grow: 1;
+ text-align: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card a{
+  
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.card p{
+  color: black;
+  margin: auto;
+  font-size: 18px;
+}
+.card3 {
+  background-color: #e2eafc;
+  padding: 15px 18px 18px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  flex-basis: 250px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  
+}
+
+.card1 p{
+  color: white;
+}
+
+.card4{
+  background-image: url(../../images/lettre1.jpg);   
+  /* 2. Make the background image cover the banner div */
+  background-size: cover;
+  
+ 
+  /* 3. Center the image */
+  background-position: center;
+  background-color: #e2eafc;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  flex-basis: 250px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.card4 img {
+  width: 190px;
+}
+
+.card5 img {
+  width: 260px;
+}
+
+ .card3 img{
+  width: 390px;
+ }
+
+.card1 p{
+  font-size: 17px;
+}
+
+.card1 img {
+  margin: auto;
+  align-items: center;
+  background-position: center;
+  width: 240px;
+}

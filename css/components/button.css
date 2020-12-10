@@ -1,0 +1,89 @@
+.btn-blue{
+	background-color: #9d0208;
+	color: white;
+	font-weight: bold;
+	
+	padding: 14px 20px;
+	border-radius: 10px;
+	justify-content: center;
+	display: flex;
+	align-items: flex-start;
+
+	 
+  animation: clignote 4s linear infinite;
+  font-weight: bold;
+}
+@keyframes clignote {  
+  50% { opacity: 0; }
+}
+
+.btn-blue1{
+	background-color: #94d1be;
+	color: black;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 7px 14px;
+	justify-content: center;
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+	margin: auto;
+	
+
+}
+
+
+
+
+
+.btn-blue a {
+
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: flex-start;
+	color: red;
+
+}
+
+.btn-blue2{
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 7px 14px;
+	margin: auto;
+	font-size:22px;
+}
+
+.btn-blue3{
+	color: red;
+	margin: auto;
+	text-align: center;
+	display: inline-flex;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+
+}
+
+.btn-blue img{
+	margin: auto;
+	display: inline;
+	
+
+}
+.clignote {
+	text-align: center;
+	margin: 0 auto;
+	width: 100px;
+  color:black;
+  animation: clignote 2s linear infinite;
+  font-weight: bold;
+}
+
+
+.clignote a{
+
+	color: black;
+}
